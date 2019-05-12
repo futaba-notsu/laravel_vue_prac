@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+    .center{
+        justify-content: center;
+        align-items: center;
+    }
+    .stretch{
+        display: flex;
+        align-content:stretch;
+    }
+    .column{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+.full{
+    width: max;
+    height: max;
+}
